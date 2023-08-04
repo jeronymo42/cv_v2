@@ -184,3 +184,99 @@ h4 {
     font-size: 0.8em;
     color: #666
 }
+
+.download {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.download a {
+    display: block;
+    padding-top: 20px;
+    font-weight: 600;
+    color: #231fbf;
+}
+
+@media (max-width: 520px) {
+.container {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;
+    max-width: 520px;
+    min-height: 1300px;
+    background: white;
+    margin: 10px;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    height: 560px;
+}
+
+
+h2 {
+    font-size: 1.4em;
+    text-transform: capitalize;
+}
+h2 span {
+    display: block;
+    margin: auto;
+    color: #d3d1d3ce;
+    padding-top: 10px;
+    font-size: 0.8em;
+    font-weight: 600;  
+}
+
+.group {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.group .imgBox img {
+    margin-left: 60px;
+    border-radius: 20px;
+    width: 55%;
+}
+.group p {
+    font-size: 0.9em;
+    color: white;
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 40px;
+}
+
+.bottom .left_side {
+    margin-top: 10px;
+}
+
+
+h4 {
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.download {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.download a {
+    display: block;
+    padding-top: 20px;
+    margin: auto;
+    font-weight: 600;
+    color: #231fbf;
+}
+
+}
