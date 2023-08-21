@@ -197,6 +197,21 @@ h4 {
     color: #231fbf;
 }
 
+.download input {
+    height: 120%;
+    width: 140%;
+    color: #eee;
+    background-color: #231fbf;
+    border: #69175f;
+}
+
+.download input:hover {
+    height: 130%;
+    width: 160%;
+    background-color: #69175f;
+    border: #231fbf;
+}
+
 @media (max-width: 520px) {
 .container {
     border-radius: 5px;
