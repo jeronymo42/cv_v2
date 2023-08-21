@@ -187,13 +187,12 @@ h4 {
 
 .download {
     display: flex;
-    flex-direction: column;
     margin-bottom: 40px;
 }
 
 .download a {
-    display: block;
     padding-top: 20px;
+    margin-left: 15%;
     font-weight: 600;
     color: #231fbf;
 }
