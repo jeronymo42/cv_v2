@@ -66,7 +66,7 @@ h2 span {
 }
 
 .group p {
-    font-size: 1em;
+    font-size: 1.2em;
     color: white;
 }
 
@@ -212,7 +212,7 @@ h4 {
     border: #231fbf;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 812px) {
 .container {
     border-radius: 5px;
     position: relative;
@@ -227,12 +227,15 @@ h4 {
 .top {
     display: flex;
     flex-direction: column;
-    height: 560px;
+    height: 600px;
 }
 
+.rightSide p {
+    font-size: 10px;
+}
 
 h2 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     text-transform: capitalize;
 }
 h2 span {
@@ -245,14 +248,15 @@ h2 span {
 }
 
 .group {
-    margin-top: 10px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     width: 100%;
+    gap: 15px;
 }
 
 .group .imgBox img {
-    margin-left: 60px;
+    margin: 10px 0 10px 80px;
     border-radius: 20px;
     width: 55%;
 }
@@ -260,6 +264,7 @@ h2 span {
     font-size: 0.9em;
     color: white;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .bottom {
@@ -287,7 +292,9 @@ h4 {
 
 .download a {
     display: block;
-    padding-top: 20px;
+    width: 120px;
+    height: 42px;
+    padding: 10px 0;
     margin: auto;
     font-weight: 600;
     color: #231fbf;
